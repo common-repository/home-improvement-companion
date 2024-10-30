@@ -1,0 +1,45 @@
+{
+    "name": "wordpress/wordpress-home-improvement-companion",
+    "description": "Wordpress Plugin Home Improvement Companion",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HomeImprovementCompanion\\": "src/"
+        }
+    },
+    "scripts": {
+        "phpcs": "./vendor/bin/phpcs",
+        "phpcs:fix": "./vendor/bin/phpcbf"
+    },
+    "require": {
+        "php": ">=7.1",
+        "micropackage/requirements": "^1.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "wp-coding-standards/wpcs": "*",
+        "automattic/phpcs-neutron-ruleset": "^3.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "wptrt/wpthemereview": "^0.2.1"
+    },
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "boilerplate",
+        "framework"
+    ],
+    "authors": [
+        {
+            "name": "Alley Themes"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

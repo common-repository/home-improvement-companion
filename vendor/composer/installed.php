@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'wordpress/wordpress-home-improvement-companion',
+        'pretty_version' => '1.0.0',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'micropackage/internationalization' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => 'cb140d4c4cbf9828bfcb20242b202517379381df',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../micropackage/internationalization',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'micropackage/requirements' => array(
+            'pretty_version' => '1.2.2',
+            'version' => '1.2.2.0',
+            'reference' => 'c2fa8c2df7cefa3c7016a6e0ad755b8bdc73f519',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../micropackage/requirements',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wordpress/wordpress-home-improvement-companion' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

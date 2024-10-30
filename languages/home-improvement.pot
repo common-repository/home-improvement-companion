@@ -1,0 +1,1825 @@
+# Copyright (C) 2024 home-improvement
+# This file is distributed under the same license as the home-improvement package.
+msgid ""
+msgstr ""
+"Project-Id-Version: home-improvement\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-19 09:22+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../home-improvement-companion.php:76
+msgid "Home Improvement Companion is unable to find the Bootstrap class."
+msgstr ""
+
+#: ../home-improvement-companion.php:94
+msgid "Home Improvement Companion is unable to run the Bootstrap class."
+msgstr ""
+
+#. translators: %s: php class namespace
+#: ../src/Bootstrap.php:175
+msgid "Could not load class \"%s\". The \"init\" method is probably missing or try a `composer dumpautoload -o` to refresh the autoloader."
+msgstr ""
+
+#: ../src/Bootstrap.php:181
+msgid "Plugin initialize failed"
+msgstr ""
+
+#. translators: Plugin name.
+#: ../src/Config/Requirements.php:81
+msgctxt "home-improvement"
+msgid "The plugin: <strong>%s</strong> required following plugin -"
+msgid_plural "The plugin: <strong>%s</strong> required following plugins -"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/Config/Requirements.php:252, ../src/App/Backend/Enqueue.php:80
+msgid "Activated"
+msgstr ""
+
+#: ../src/Config/Requirements.php:249
+msgid "Activate"
+msgstr ""
+
+#: ../src/Config/Requirements.php:246
+msgid "Install & Activate"
+msgstr ""
+
+#: ../src/App/Backend/AdminMenu.php:68
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../src/App/Backend/Ajax.php:61
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: ../src/App/Backend/Ajax.php:118
+msgid "Sorry, you are not allowed to active plugins on this site."
+msgstr ""
+
+#: ../src/App/Backend/DemoImporter.php:61, ../src/App/Backend/DemoImporter.php:62
+msgid "Home Improvement Demo Importer"
+msgstr ""
+
+#: ../src/App/Backend/DemoImporter.php:81
+msgid "Home Improvement"
+msgstr ""
+
+#: ../src/App/Backend/DemoImporter.php:90
+msgid "Home Improvement Pro"
+msgstr ""
+
+#: ../src/App/Backend/Enqueue.php:78
+msgid "Processing..."
+msgstr ""
+
+#: ../src/App/Backend/Enqueue.php:79
+msgid "Activating..."
+msgstr ""
+
+#: ../src/App/Backend/Notices.php:97
+msgid "logo"
+msgstr ""
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link ending html tag.
+#: ../src/App/Backend/Notices.php:105
+msgid "Thank you for choosing Us! To fully take advantage of the best our theme can offer, please make sure you visit our %1$ swelcome page %2$s."
+msgstr ""
+
+#: ../src/App/Backend/Notices.php:113
+msgid "Get started"
+msgstr ""
+
+#: ../src/App/Backend/Notices.php:115
+msgid "Clicking the button will install and activate all required plugins."
+msgstr ""
+
+#. translators: %1$1s: post limit, %2$2s: current post type
+#: ../src/App/Backend/Notices.php:167
+msgid "You have reached the limit of  %1$1s posts. Post type is %2$2s."
+msgstr ""
+
+#: ../src/App/Backend/Notices.php:173
+msgid "Reached the limit"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:38, ../src/App/Backend/Testimonial.php:38, ../src/Integrations/Customizer/options/blog/general.php:14
+msgid "General"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:41
+msgid "Designation"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:46
+msgid "Facebook Link"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:51
+msgid "Linkedin Link"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:56
+msgid "Twitter Link"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:61
+msgid "Instagram Link"
+msgstr ""
+
+#: ../src/App/Backend/Team.php:81, ../src/App/Backend/Testimonial.php:71
+msgid "More Info"
+msgstr ""
+
+#: ../src/App/Backend/Testimonial.php:41
+msgid "Name"
+msgstr ""
+
+#: ../src/App/Backend/Testimonial.php:46
+msgid "Source Name"
+msgstr ""
+
+#: ../src/App/Backend/Testimonial.php:51
+msgid "Source Link"
+msgstr ""
+
+#: ../src/App/Frontend/Enqueue.php:107
+msgid "Loading..."
+msgstr ""
+
+#: ../src/App/Frontend/Hooks.php:164
+msgid "All"
+msgstr ""
+
+#. translators: %s: post type singular title
+#: ../src/App/General/PostTaxonomies.php:92, ../src/App/General/PostTaxonomies.php:94, ../src/App/General/PostTypes.php:95, ../src/App/General/PostTypes.php:97
+msgid "New %s"
+msgstr ""
+
+#. translators: %s: post type singular title
+#: ../src/App/General/PostTaxonomies.php:93, ../src/App/General/PostTypes.php:96
+msgid "Add New %s"
+msgstr ""
+
+#. translators: %s: post type singular title
+#: ../src/App/General/PostTaxonomies.php:95, ../src/App/General/PostTypes.php:98
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: post type singular title
+#: ../src/App/General/PostTaxonomies.php:96, ../src/App/General/PostTypes.php:99
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: post type title
+#: ../src/App/General/PostTaxonomies.php:97, ../src/App/General/PostTypes.php:100
+msgid "All %s"
+msgstr ""
+
+#. translators: %s: post type title
+#: ../src/App/General/PostTaxonomies.php:98, ../src/App/General/PostTypes.php:101
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: request function
+#: ../src/Common/Traits/Requester.php:53
+msgid "Unknown request type: %s"
+msgstr ""
+
+#: ../src/Common/Traits/Requester.php:56
+msgid "Classes are not being correctly requested"
+msgstr ""
+
+#: ../src/Common/Traits/Singleton.php:51, ../src/Common/Traits/Singleton.php:61
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../src/Common/Utils/Errors.php:50
+msgid "&rsaquo; Fatal Error"
+msgstr ""
+
+#. translators: %s: file path
+#: ../src/Common/Utils/Errors.php:61, ../src/Common/Utils/Errors.php:98
+msgid "Error source: %s"
+msgstr ""
+
+#: ../src/Common/Utils/Errors.php:87
+msgid "&rsaquo; Plugin Disabled"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:58
+msgid "Import Demo"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:59
+msgid "Theme Options"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:60
+msgid "WordPress Defaults"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:61
+msgid "Colors"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:62, ../src/Integrations/Customizer/options/frontpage/about.php:80
+msgid "Buttons"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:63, ../src/Integrations/Customizer/Theme_Mods.php:80
+msgid "Footer"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:64, ../templates/admin/pages/getting-started.php:136
+msgid "Setup Homepage"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:65, ../src/Integrations/Customizer/Theme_Mods.php:81
+msgid "Sidebar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:66, ../src/Integrations/Customizer/Theme_Mods.php:130
+msgid "Blog"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:70, ../templates/admin/pages/home.php:34
+msgid "Typography"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:71
+msgid "Header"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:72, ../templates/admin/pages/home.php:232
+msgid "Conversion Pages"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:73
+msgid "Mobile CTA"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:77
+msgid "Global Colors"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:78
+msgid "Top Header"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:79
+msgid "Menu Bar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:85
+msgid "Primary Button"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:86
+msgid "Secondary Button"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:90
+msgid "Copyright"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:91
+msgid "Scroll to Top"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:95
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:96
+msgid "Blog Archive Sidebar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:97
+msgid "Single Blog Sidebar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:101
+msgid "Single"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:102
+msgid "Archive"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:121
+msgid "Banner"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:122
+msgid "Services"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:123, ../templates/admin/dashboard.php:24
+msgid "Extra Services"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:124
+msgid "About"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:125, ../src/Integrations/Customizer/options/cpt.php:43, ../templates/admin/pages/home.php:121
+msgid "Team"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:126, ../src/Integrations/Customizer/options/cpt.php:71, ../templates/admin/pages/home.php:133
+msgid "Promotion"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:127, ../src/Integrations/Customizer/options/cpt.php:15
+msgid "Testimonial"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:128, ../src/Integrations/Customizer/options/cpt.php:99, ../templates/admin/pages/home.php:157
+msgid "Portfolio"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:129
+msgid "CTA"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:131
+msgid "Newsletter"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:132
+msgid "Location"
+msgstr ""
+
+#: ../src/Integrations/Customizer/Theme_Mods.php:133
+msgid "Contact"
+msgstr ""
+
+#: ../src/Integrations/Widget/Custom_Categories_List.php:74
+msgid "Display a list of all categories by post type."
+msgstr ""
+
+#: ../src/Integrations/Widget/Custom_Categories_List.php:78
+msgid "Home Improvement Categories List"
+msgstr ""
+
+#: ../src/Integrations/Widget/Custom_Categories_List.php:192
+msgid "Title:"
+msgstr ""
+
+#: ../src/Integrations/Widget/Custom_Categories_List.php:199
+msgid "Filter by Post Type:"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:21, ../src/Integrations/Customizer/options/button.php:61
+msgid "Button Style"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:25, ../src/Integrations/Customizer/options/button.php:65
+msgid "Filled"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:26, ../src/Integrations/Customizer/options/button.php:66
+msgid "Outline"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:39, ../src/Integrations/Customizer/options/button.php:78, ../src/Integrations/Customizer/options/color.php:418, ../src/Integrations/Customizer/options/color.php:438, ../src/Integrations/Customizer/options/color.php:458, ../src/Integrations/Customizer/options/color.php:479, ../src/Integrations/Customizer/options/header.php:253, ../src/Integrations/Customizer/options/mobile-cta.php:15, ../src/Integrations/Customizer/options/blog/general.php:105, ../src/Integrations/Customizer/options/blog/single.php:65, ../src/Integrations/Customizer/options/footers/copyright.php:17, ../src/Integrations/Customizer/options/footers/scroll-top.php:18, ../src/Integrations/Customizer/options/frontpage/about.php:110, ../src/Integrations/Customizer/options/frontpage/contact.php:18, ../src/Integrations/Customizer/options/frontpage/cta.php:18, ../src/Integrations/Customizer/options/frontpage/extra-service.php:16, ../src/Integrations/Customizer/options/frontpage/hero.php:190, ../src/Integrations/Customizer/options/frontpage/location.php:17, ../src/Integrations/Customizer/options/frontpage/newsletter.php:18, ../src/Integrations/Customizer/options/frontpage/portfolio.php:83, ../src/Integrations/Customizer/options/frontpage/promotion.php:94, ../src/Integrations/Customizer/options/frontpage/service.php:90, ../src/Integrations/Customizer/options/frontpage/team.php:94, ../src/Integrations/Customizer/options/frontpage/testimonial.php:81
+msgid "Upgrade to Pro for additional features"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:41, ../src/Integrations/Customizer/options/button.php:80
+msgid "Control Button Shape"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:42, ../src/Integrations/Customizer/options/button.php:81
+msgid "Control Button Type"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:43, ../src/Integrations/Customizer/options/button.php:82
+msgid "Control colors"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:44, ../src/Integrations/Customizer/options/button.php:83
+msgid "Control Hover State"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/button.php:46, ../src/Integrations/Customizer/options/button.php:85, ../src/Integrations/Customizer/options/color.php:424, ../src/Integrations/Customizer/options/color.php:444, ../src/Integrations/Customizer/options/color.php:465, ../src/Integrations/Customizer/options/color.php:485, ../src/Integrations/Customizer/options/header.php:262, ../src/Integrations/Customizer/options/mobile-cta.php:22, ../src/Integrations/Customizer/options/blog/general.php:112, ../src/Integrations/Customizer/options/blog/single.php:71, ../src/Integrations/Customizer/options/footers/copyright.php:23, ../src/Integrations/Customizer/options/footers/scroll-top.php:28, ../src/Integrations/Customizer/options/frontpage/about.php:116, ../src/Integrations/Customizer/options/frontpage/contact.php:26, ../src/Integrations/Customizer/options/frontpage/cta.php:25, ../src/Integrations/Customizer/options/frontpage/extra-service.php:23, ../src/Integrations/Customizer/options/frontpage/hero.php:196, ../src/Integrations/Customizer/options/frontpage/location.php:26, ../src/Integrations/Customizer/options/frontpage/newsletter.php:25, ../src/Integrations/Customizer/options/frontpage/portfolio.php:88, ../src/Integrations/Customizer/options/frontpage/promotion.php:99, ../src/Integrations/Customizer/options/frontpage/service.php:95, ../src/Integrations/Customizer/options/frontpage/team.php:99, ../src/Integrations/Customizer/options/frontpage/testimonial.php:86
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:16
+msgid "Primary Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:119
+msgid "Secondary Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:205
+msgid "Heading Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:242
+msgid "Body Text Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:283
+msgid "Secondary Text Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:317
+msgid "Link Text Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:335
+msgid "Default White Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:361
+msgid "Light Background Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:420
+msgid "Menu Bar Color Customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:421
+msgid "Footer Color Customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:422
+msgid "Top Header Customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:440
+msgid "Top Header Background"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:441
+msgid "Top Header Text Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:442
+msgid "Top Header Text Hover Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:460
+msgid "Control Menu Bar Background"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:461
+msgid "Control Menu Bar Text"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:462
+msgid "Control Menu Bar Text Hover"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:463
+msgid "Control Menu Bar Background Hover"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:481
+msgid "Control Footer Background"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:482
+msgid "Control Footer Text and Heading"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:483
+msgid "Control Footer Link Text Hover"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:496, ../src/Integrations/Customizer/options/frontpage/hero.php:104
+msgid "Text Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:515
+msgid "Link Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/color.php:533
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/cpt.php:23, ../src/Integrations/Customizer/options/cpt.php:51, ../src/Integrations/Customizer/options/cpt.php:79, ../src/Integrations/Customizer/options/cpt.php:107, ../src/Integrations/Customizer/options/blog/general.php:41, ../src/Integrations/Customizer/options/frontpage/service.php:65
+msgid "Title"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/cpt.php:32, ../src/Integrations/Customizer/options/cpt.php:60, ../src/Integrations/Customizer/options/cpt.php:88, ../src/Integrations/Customizer/options/cpt.php:116, ../src/Integrations/Customizer/options/frontpage/about.php:70, ../src/Integrations/Customizer/options/frontpage/service.php:69
+msgid "Description"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/demo-import.php:33
+msgid "View Demo"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/demo-import.php:22
+msgid "Install Demo Importer"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:16
+msgid "Select Header Layout"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:31
+msgid "Enable Social Link"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:44
+msgid "Add Social Profile here"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:45
+msgid "Drag & Drop items to re-arrange the order"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:54
+msgid "Social Profile"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:58
+msgid "Social Icon"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:62
+msgid "Facebook"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:63
+msgid "Instagram"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:64
+msgid "Twitter"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:69
+msgid "Social Link URL"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:89
+msgid "Topbar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:98
+msgid "Enable Topbar"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:111
+msgid "Header Top Text"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:129
+msgid "Phone Number"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:133, ../src/Integrations/Customizer/options/header.php:135
+msgid "(123)456-7890"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:151
+msgid "Email Address"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:155
+msgid "example@domain.com"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:187
+msgid "Enable Button on Header"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:210, ../templates/headers/header-one.php:28, ../templates/headers/header-three.php:42
+msgid "Book Now"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:218, ../src/Integrations/Customizer/options/frontpage/hero.php:160
+msgid "Button Text"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:222, ../src/Integrations/Customizer/options/frontpage/hero.php:164
+msgid "Button URL"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:226, ../src/Integrations/Customizer/options/frontpage/hero.php:172
+msgid "Button Type"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:229, ../src/Integrations/Customizer/options/frontpage/hero.php:175, ../src/Integrations/Customizer/options/frontpage/hero.php:403
+msgid "Primary"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:230, ../src/Integrations/Customizer/options/frontpage/hero.php:176, ../src/Integrations/Customizer/options/frontpage/hero.php:404
+msgid "Secondary"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:255
+msgid "Two button header layout"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:256, ../templates/admin/pages/home.php:364
+msgid "Sticky Header"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:257
+msgid "“Open in New Tab” Option For Link"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:258
+msgid "Website Search"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:259
+msgid "Breadcrumbs Links"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/header.php:260
+msgid "Add more than 3 Social Profiles"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/mobile-cta.php:18, ../templates/admin/pages/home.php:289
+msgid "Access Mobile CTA"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/mobile-cta.php:19
+msgid "Two Mobile CTA Layouts"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/mobile-cta.php:20
+msgid "Improved Mobile Navigation"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/sidebar.php:15, ../src/Integrations/Customizer/options/sidebar.php:49, ../src/Integrations/Customizer/options/sidebar.php:83
+msgid "Sidebar Layout"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/sidebar.php:28, ../src/Integrations/Customizer/options/sidebar.php:62, ../src/Integrations/Customizer/options/sidebar.php:96
+msgid "Content Width %"
+msgstr ""
+
+#. translators: %s: Site icon size in pixels.
+#: ../src/Integrations/Customizer/options/site-identity.php:18
+msgid "Recommended logo size is %s pixels."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:27
+msgid "Logo Size"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:49
+msgid "Display Site Title"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:59
+msgid "Display Site Tagline"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:69
+msgid "Site Identity Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:70
+msgid "Global Font Color Options."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:86
+msgid "Site Identity Font"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/site-identity.php:87
+msgid "Global Font Options."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:18
+msgid "Body"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:25
+msgid "Body Typography Options."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:66, ../src/Integrations/Customizer/options/frontpage/about.php:26, ../src/Integrations/Customizer/options/frontpage/blog.php:27, ../src/Integrations/Customizer/options/frontpage/hero.php:85, ../src/Integrations/Customizer/options/frontpage/portfolio.php:27, ../src/Integrations/Customizer/options/frontpage/service.php:26, ../src/Integrations/Customizer/options/frontpage/team.php:27, ../src/Integrations/Customizer/options/frontpage/testimonial.php:27
+msgid "Heading"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:73
+msgid "H1"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:95
+msgid "H2"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:116
+msgid "H3"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:137
+msgid "H4"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:157
+msgid "H5"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/typography.php:177
+msgid "H6"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:22
+msgid "Post By"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:26
+msgid "Published Date Ascending"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:27
+msgid "Published Date Descending"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:35
+msgid "Post Content Order"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:39, ../src/Integrations/Customizer/options/frontpage/about.php:36
+msgid "Image"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:40
+msgid "Category"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:42
+msgid "Meta"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:43
+msgid "Excerpt"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:44
+msgid "Read More Link"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:52
+msgid "Meta Order"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:56
+msgid "Author"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:57
+msgid "Date"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:58
+msgid "Comments"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:59
+msgid "Tags"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:67
+msgid "Meta Separator"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:77, ../src/Integrations/Customizer/options/frontpage/blog.php:79, ../src/Integrations/Customizer/options/frontpage/portfolio.php:65, ../src/Integrations/Customizer/options/frontpage/promotion.php:65, ../src/Integrations/Customizer/options/frontpage/team.php:65, ../src/Integrations/Customizer/options/frontpage/testimonial.php:63
+msgid "Excerpt Limit"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:92
+msgid "Read More Text"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:107
+msgid "Blog Updated Date Option"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:108
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:109
+msgid "Grid Layout Style"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/general.php:110
+msgid "Full Layout Style"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:15
+msgid "Layout"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:22
+msgid "Choose Style"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:26
+msgid "List"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:34
+msgid "Image Position"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:38, ../src/Integrations/Customizer/options/frontpage/about.php:58, ../src/Integrations/Customizer/options/frontpage/hero.php:128, ../src/Integrations/Customizer/options/frontpage/hero.php:218, ../src/Integrations/Customizer/options/frontpage/hero.php:240, ../src/Integrations/Customizer/options/frontpage/hero.php:432, ../src/Integrations/Customizer/options/frontpage/hero.php:454
+msgid "Left"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:39
+msgid "Alternating"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:40, ../src/Integrations/Customizer/options/frontpage/about.php:60, ../src/Integrations/Customizer/options/frontpage/hero.php:130, ../src/Integrations/Customizer/options/frontpage/hero.php:219, ../src/Integrations/Customizer/options/frontpage/hero.php:242, ../src/Integrations/Customizer/options/frontpage/hero.php:433, ../src/Integrations/Customizer/options/frontpage/hero.php:456
+msgid "Right"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:55
+msgid "Columns"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/layout.php:76
+msgid "Enable Masonry"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:13
+msgid "Display Tags"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:23
+msgid "Display Comments"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:33
+msgid "Display Post Navigation"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:42
+msgid "Display Categories"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:51
+msgid "Display Date"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:67
+msgid "Display Feature Image"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:68
+msgid "Related Post Options"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/blog/single.php:69
+msgid "Author Bio Option"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/copyright.php:20
+msgid "Show or hide Copyright"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/copyright.php:21
+msgid "Edit Copyright Text"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:21
+msgid "Access Scroll to Top Button"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:22
+msgid "5 Scroll-to-Top Layouts"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:23
+msgid "Control Size, Color and Hovers"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:24
+msgid "Control Padding and Radius"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:25
+msgid "Appearance customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/footers/scroll-top.php:26
+msgid "Select Placement"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:15, ../src/Integrations/Customizer/options/frontpage/blog.php:16, ../src/Integrations/Customizer/options/frontpage/hero.php:16, ../src/Integrations/Customizer/options/frontpage/portfolio.php:16, ../src/Integrations/Customizer/options/frontpage/promotion.php:16, ../src/Integrations/Customizer/options/frontpage/service.php:16, ../src/Integrations/Customizer/options/frontpage/team.php:16, ../src/Integrations/Customizer/options/frontpage/testimonial.php:16
+msgid "Enable Section"
+msgstr ""
+
+#. translators: %s: Site icon size in pixels.
+#: ../src/Integrations/Customizer/options/frontpage/about.php:40, ../src/Integrations/Customizer/options/frontpage/hero.php:51
+msgid "Recommended size is %s pixels."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:53, ../src/Integrations/Customizer/options/frontpage/hero.php:123, ../src/Integrations/Customizer/options/frontpage/hero.php:235, ../src/Integrations/Customizer/options/frontpage/hero.php:449
+msgid "Text Alignment"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:56, ../src/Integrations/Customizer/options/frontpage/hero.php:126, ../src/Integrations/Customizer/options/frontpage/hero.php:216, ../src/Integrations/Customizer/options/frontpage/hero.php:238, ../src/Integrations/Customizer/options/frontpage/hero.php:329, ../src/Integrations/Customizer/options/frontpage/hero.php:430, ../src/Integrations/Customizer/options/frontpage/hero.php:452
+msgid "Choose an option"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:59, ../src/Integrations/Customizer/options/frontpage/hero.php:129, ../src/Integrations/Customizer/options/frontpage/hero.php:241, ../src/Integrations/Customizer/options/frontpage/hero.php:455
+msgid "Center"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:93
+msgid "Button label"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:97
+msgid "Button Link"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:112
+msgid "Additional Button Option"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:113
+msgid "“Open in New Tab” Option for Links"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/about.php:114
+msgid "Select Button Types"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:37, ../src/Integrations/Customizer/options/frontpage/hero.php:95, ../src/Integrations/Customizer/options/frontpage/portfolio.php:37, ../src/Integrations/Customizer/options/frontpage/service.php:36, ../src/Integrations/Customizer/options/frontpage/team.php:37, ../src/Integrations/Customizer/options/frontpage/testimonial.php:37
+msgid "Sub Heading"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:46, ../src/Integrations/Customizer/options/frontpage/portfolio.php:46, ../src/Integrations/Customizer/options/frontpage/promotion.php:46, ../src/Integrations/Customizer/options/frontpage/team.php:46, ../src/Integrations/Customizer/options/frontpage/testimonial.php:46
+msgid "No of Posts"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:48, ../src/Integrations/Customizer/options/frontpage/portfolio.php:48, ../src/Integrations/Customizer/options/frontpage/promotion.php:48, ../src/Integrations/Customizer/options/frontpage/team.php:48, ../src/Integrations/Customizer/options/frontpage/testimonial.php:48
+msgid "No of items to show."
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:63
+msgid "Sort By"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:67
+msgid "Latest post"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:69
+msgid "Categories"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/blog.php:95, ../src/Integrations/Customizer/options/frontpage/promotion.php:81
+msgid "Each Card Button Label"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/contact.php:21
+msgid "Access Contact Section"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/contact.php:22
+msgid "Add/Customize Contact Form"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/contact.php:23
+msgid "Appearance Customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/contact.php:24
+msgid "Switch "
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/cta.php:21, ../src/Integrations/Customizer/options/frontpage/newsletter.php:21
+msgid "Access CTA Section"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/cta.php:22
+msgid "CTA plays vital role in lead generation"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/cta.php:23
+msgid "Full customization control"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/extra-service.php:19
+msgid "Show Extra Services Section on Homepage"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/extra-service.php:20
+msgid "Add upto 9 Extra Services"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/extra-service.php:21
+msgid "Open link in New Tab Option"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:27
+msgid "Hero Layout"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:47
+msgid "Banner Image"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:64
+msgid "Banner Background"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:147
+msgid "Banner Button"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:154
+msgid "Button #"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:168
+msgid "Open in new tab"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:192
+msgid "Hero Layout with Side-Image"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:193
+msgid "Hero Layout with Form"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:194, ../templates/admin/pages/home.php:317, ../templates/admin/pages/home.php:372
+msgid "Form Customization"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:213, ../src/Integrations/Customizer/options/frontpage/hero.php:427
+msgid "Text Position"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:260
+msgid "Form Title"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:277, ../src/Integrations/Customizer/options/frontpage/hero.php:346
+msgid "Form Background Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:302
+msgid "Form Title Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:327
+msgid "Select Form"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:370
+msgid "Form Label Color"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/hero.php:398
+msgid "Form Button Type"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/location.php:20
+msgid "Access location section"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/location.php:21
+msgid "Show all of your business locations"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/location.php:22
+msgid "Add google map link for each location"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/location.php:23
+msgid "Embed google map"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/location.php:24
+msgid "Place Map image"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/newsletter.php:22
+msgid "Fully customizable "
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/newsletter.php:23
+msgid "Initiative to get in loop with customer"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/portfolio.php:85
+msgid "Show up to 9 Portfolio"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/portfolio.php:86
+msgid "Show Specific Portfolio"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/promotion.php:27
+msgid "Section Title"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/promotion.php:37
+msgid "Section Sub Title"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/promotion.php:96
+msgid "Show upto 9 Promotions"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/promotion.php:97
+msgid "Ability to showcase selected promotions"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:46
+msgid "Service Lists"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:58
+msgid "Icon"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:73
+msgid "Link Label"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:77
+msgid "Link"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:92
+msgid "Add upto 9 Services"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/service.php:93
+msgid "Open link in New Tab"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/team.php:81
+msgid "Read More Label"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/team.php:96
+msgid "Show up to 9 Members"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/team.php:97
+msgid "Show Specific Members"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/testimonial.php:83
+msgid "Show up to 9 Testimonials"
+msgstr ""
+
+#: ../src/Integrations/Customizer/options/frontpage/testimonial.php:84
+msgid "Show Specific Testimonials"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:15
+msgid "Home Improvement: Theme Settings"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:19, ../templates/admin/pages/getting-started.php:12
+msgid "Getting Started"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:20
+msgid "Home"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:21
+msgid "Demo Import"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:22
+msgid "License Activation"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:23, ../templates/admin/pages/home.php:249
+msgid "Support"
+msgstr ""
+
+#: ../templates/admin/dashboard.php:25, ../templates/admin/pages/recommended-plugins.php:15
+msgid "Recommended Plugins"
+msgstr ""
+
+#: ../templates/frontpage/portfolio.php:65
+msgid "VIEW PROJECT"
+msgstr ""
+
+#: ../templates/headers/header-one.php:64, ../templates/headers/header-three.php:23
+msgid "Primary Menu"
+msgstr ""
+
+#: ../templates/admin/pages/demo-import.php:12
+msgid "Templates to Get Started"
+msgstr ""
+
+#: ../templates/admin/pages/demo-import.php:15
+msgid ""
+"Home Improvement Theme includes variety of starter templates suited for different home service, maintenance, and\n"
+"		renovation businesses’ websites. New designs are added frequently to the collection. Visit here to see all the\n"
+"		templates."
+msgstr ""
+
+#: ../templates/admin/pages/demo-import.php:29
+msgid "Note:"
+msgstr ""
+
+#: ../templates/admin/pages/demo-import.php:31
+msgid ""
+"The included required plugins need to be installed and activated before you import demo.\n"
+"		Demo importer can vary in time."
+msgstr ""
+
+#: ../templates/admin/pages/demo-import.php:39
+msgid "Import Website Demos"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:15
+msgid "Graphics Design"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:16
+msgid "Elevate Your Brand with Stunning Graphics! Explore Logo, Social Media, Print, and Business Card Design Services."
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:18, ../templates/admin/pages/extra-services.php:26, ../templates/admin/pages/extra-services.php:34, ../templates/admin/pages/extra-services.php:42, ../templates/admin/pages/support.php:28, ../templates/admin/pages/support.php:49
+msgid "Learn More"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:23
+msgid "Branded Website Design"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:24
+msgid "Transform Your Online Presence with Branded Web Design! Build a Memorable Digital Identity Today."
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:31
+msgid "Theme Installation and Setup<"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:32
+msgid "Let our expert team setup your business website and make it look like the demo. Sit back and relax while we handle the technicality of the installation process for you."
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:39
+msgid "Custom Website Design"
+msgstr ""
+
+#: ../templates/admin/pages/extra-services.php:40
+msgid "Unlock Limitless Possibilities with Custom Web Design! Tailor-Made Websites to Meet Your Unique Business Needs - Let's Create Together!"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:19, ../templates/admin/pages/getting-started.php:56, ../templates/admin/pages/getting-started.php:93, ../templates/admin/pages/getting-started.php:130, ../templates/admin/pages/getting-started.php:167, ../templates/admin/pages/getting-started.php:204, ../templates/admin/pages/getting-started.php:241, ../templates/admin/pages/getting-started.php:278, ../templates/admin/pages/getting-started.php:307, ../templates/admin/pages/getting-started.php:336
+msgid "STEP"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:20
+msgid "1"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:25
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:28, ../templates/admin/pages/getting-started.php:139
+msgid ""
+"To build your website with the same layouts you saw on our demo site, the theme requires certain plugins.\n"
+"							We strongly suggest installing the recommended plugins to ensure optimal performance and functionality."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:38
+msgid ""
+"Install\n"
+"								Plugins"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:45, ../templates/admin/pages/getting-started.php:82, ../templates/admin/pages/getting-started.php:119, ../templates/admin/pages/getting-started.php:156, ../templates/admin/pages/getting-started.php:193, ../templates/admin/pages/getting-started.php:230, ../templates/admin/pages/getting-started.php:267, ../templates/admin/pages/getting-started.php:296, ../templates/admin/pages/getting-started.php:325, ../templates/admin/pages/getting-started.php:362
+msgid "Learn How"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:57
+msgid "2"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:62
+msgid "Import the Website Demo"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:65
+msgid ""
+"Here you can import the demo data to your site. Doing this will make your site look like the demo site.\n"
+"							It helps you to understand better the theme and build something similar to our demo quicker."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:75
+msgid ""
+"Import\n"
+"								Demo"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:94
+msgid "3"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:99
+msgid "Customize Theme Options"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:102
+msgid ""
+"Start customize theme's layouts, typography, elements colors using WordPress customize and see your\n"
+"							changes in live preview instantly."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:112
+msgid ""
+"Go to\n"
+"								Customization"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:131
+msgid "4"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:149
+msgid ""
+"Setup\n"
+"								Homepage"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:168
+msgid "5"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:173
+msgid "Set Navigation Menu"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:176
+msgid ""
+"Once you imported demo or created your own pages. You can setup navigation menu and assign to your\n"
+"							website main header or any other places."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:186
+msgid ""
+"Create\n"
+"								Menu"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:205
+msgid "6"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:210
+msgid "Permalinks Structures"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:213
+msgid ""
+"ou can change your website permalink structure to better SEO result. Click here to setup WordPress\n"
+"							permalink options."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:223
+msgid ""
+"Setup\n"
+"								Permalink"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:242
+msgid "7"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:247
+msgid "Setup Teams"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:250
+msgid ""
+"Showcasing your team's expertise and talent on the homepage, individual pages, and archive pages\n"
+"							effortlessly with our Team feature!"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:260
+msgid ""
+"Add\n"
+"								Member"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:279
+msgid "8"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:284
+msgid "Setup Portfolios"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:287
+msgid ""
+"Showcase your work effectively by utilizing our versatile portfolio feature on the homepage, individual\n"
+"							pages, and archive section - captivate your audience with stunning visuals!"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:295
+msgid "Add Portfolios"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:308
+msgid "9"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:313
+msgid "Setup Testimonials"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:316
+msgid ""
+"Boost your site's credibility and engage your visitors by utilizing our testimonial section on the\n"
+"							homepage, individual pages, and archive page to build customer trust."
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:324
+msgid "Add Reviews"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:337
+msgid "10"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:342
+msgid "Setup Promotions"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:345
+msgid ""
+"Showcase enticing promotions and offers on your homepage, individual pages, and archive pages\n"
+"							effortlessly with our built-in Promotions Section - captivate your visitors and drive conversions!"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:355
+msgid ""
+"Add\n"
+"								Offers & Promotion"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:374, ../templates/admin/pages/home.php:391
+msgid "Changelog"
+msgstr ""
+
+#: ../templates/admin/pages/getting-started.php:377, ../templates/admin/pages/home.php:394
+msgid ""
+"We are always keep adding new features to our theme. This is why we highly recommend to stay up to date with each\n"
+"			new theme version and all required plugins. You can view all theme changelog here!"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:12
+msgid "Appearance Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:20
+msgid "Color Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:27
+msgid "Button Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:39
+msgid "Layout Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:47
+msgid ""
+"Setup\n"
+"							Homepage"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:62
+msgid ""
+"Header\n"
+"							Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:75
+msgid "Footer Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:84
+msgid ""
+"Sidebar\n"
+"							Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:99
+msgid ""
+"Mobile\n"
+"							CTA Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:112
+msgid "Blog Settings"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:117
+msgid "Theme Power Options"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:124
+msgid "Effortlessly highlight team expertise and roles with 'TEAM CPT.'"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:126
+msgid "Add Member"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:127
+msgid "Edit Team Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:136
+msgid "Showcase enticing promotions and offers effortlessly with 'Promotion CPT.'"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:138
+msgid "Add Promotion"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:139
+msgid "Edit Promotion Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:145
+msgid "Testimonial "
+msgstr ""
+
+#: ../templates/admin/pages/home.php:148
+msgid "Display client testimonials with ease and build trust using 'Testimonial CPT.\’"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:150
+msgid "Add Testimonial"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:151
+msgid "Edit Testimonial Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:160
+msgid "Highlight your business projects elegantly with 'Portfolio CPT.'"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:162
+msgid "Add Portfolio"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:163
+msgid "Edit Portfolio Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:168
+msgid "Others"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:175
+msgid ""
+"Edit\n"
+"							Banner"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:188
+msgid "Edit Menu"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:195
+msgid "Widgets"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:204
+msgid ""
+"Social\n"
+"							Links"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:219
+msgid ""
+"Site\n"
+"							Identity"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:241, ../templates/admin/pages/home.php:244
+msgid "Documentation"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:242
+msgid "Find answers to your questions, step-by-step guides, and more in our comprehensive documentation."
+msgstr ""
+
+#: ../templates/admin/pages/home.php:252, ../templates/admin/pages/support.php:41
+msgid ""
+"If the Knowledge Base didn't answer your queries, submit us a support ticket here. Our response time usually\n"
+"					is less than a business day, except on the weekends."
+msgstr ""
+
+#: ../templates/admin/pages/home.php:260
+msgid "Submit a Ticket"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:265
+msgid "Save 30% on Pro Version"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:266
+msgid "Your feedback, our discount - let's make your website even better!"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:268
+msgid "Take Survey & Save 30%"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:277
+msgid "Upgrade to Home Improvement Pro"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:280
+msgid ""
+"Upgrade to the Pro Version now to extend the features and functionalities of Business Services Theme and\n"
+"				Companion Plugin for a business-boosting website."
+msgstr ""
+
+#: ../templates/admin/pages/home.php:293
+msgid "CTA Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:297
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:301
+msgid "Location Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:305
+msgid "Pro Demo Layouts"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:309
+msgid "Add More than 3 CPT Posts"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:313
+msgid "Extra Service Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:321
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:325
+msgid "Button Customization"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:329
+msgid "Footer Customization"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:333
+msgid "Menu Bar Customization"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:336
+msgid "More Header Layouts"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:340
+msgid "Newsletter Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:344
+msgid "Banner with Form Layout"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:348
+msgid "Contact Section"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:352
+msgid "Priority Support"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:356
+msgid "CPT Archive Pages"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:360
+msgid "Additional Blog Layouts"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:368
+msgid "More Social Links"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:376
+msgid "Open in New Tab Link Option"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:380
+msgid "Header Customization"
+msgstr ""
+
+#: ../templates/admin/pages/home.php:386
+msgid "Upgrade Now"
+msgstr ""
+
+#: ../templates/admin/pages/license-activation.php:12
+msgid "Activate Your Pro Licence"
+msgstr ""
+
+#: ../templates/admin/pages/license-activation.php:14
+msgid "Activate Now"
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:18
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:21
+msgid ""
+"You must install and activate this plugin to create multiple contact forms. Forms you saw on the demo wont show\n"
+"				on your website if this plugin is not activated."
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:34
+msgid "Demo Importer"
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:35
+msgid "Enable this plugin to import the demo you saw in our website."
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:42
+msgid "Install & Activate all plugins"
+msgstr ""
+
+#: ../templates/admin/pages/recommended-plugins.php:47
+msgid "First Install & Activate all plugins"
+msgstr ""
+
+#: ../templates/admin/pages/support.php:19
+msgid "Discover Guides"
+msgstr ""
+
+#: ../templates/admin/pages/support.php:22
+msgid "Need help with using the Home Improvement WordPress as quickly as possible? Visit our well-organized Knowledge Base!"
+msgstr ""
+
+#: ../templates/admin/pages/support.php:38
+msgid "Get Help Now"
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/template-top-level-post-types.php:3, ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/template-top-level.php:3
+msgid "Top Level"
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/no-trailing-period-post-types.php:3
+msgid "No Trailing Period"
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/tilde-post-types.php:3
+msgid "Tilde in Post Type."
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/trailing-comma-post-types.php:3
+msgid "Trailing Comma,"
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/trailing-period-post-types.php:3
+msgid "Trailing Period."
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/trailing-period-whitespace-post-types.php:3
+msgid "Trailing Period, White Space."
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/38766/trailing-whitespace-period-post-types.php:3
+msgid "Trailing White Space, Period."
+msgstr ""
+
+#: ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/subdir/template-sub-dir-post-types.php:3, ../vendor/lucatume/wp-browser/src/data/themedir1/page-templates/subdir/template-sub-dir.php:3
+msgid "Sub Dir"
+msgstr ""
